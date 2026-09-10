@@ -1,2 +1,12 @@
 #local environment
 .env
+
+# dependencies and generated output
+node_modules/
+dist/
+coverage/
+
+# local tooling and archives
+.DS_Store
+*.log
+*.zip

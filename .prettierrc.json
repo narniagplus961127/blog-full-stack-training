@@ -1,0 +1,8 @@
+{
+  "plugins": ["prettier-plugin-sql", "prettier-plugin-tailwindcss"],
+  "language": "postgresql",
+  "semi": true,
+  "singleQuote": true,
+  "tabWidth": 2,
+  "trailingComma": "all"
+}
