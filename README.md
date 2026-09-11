@@ -2,7 +2,10 @@
 
 A one-page editorial blog built with React, TypeScript, Tailwind CSS, Express, and PostgreSQL. Public visitors can read the article and publish comments. An authenticated administrator can add, edit, and delete comments.
 
-The project is currently configured for local development only. Deployment has not been performed.
+Production deployment:
+
+- Frontend: <https://blog-full-stack-training-qw-e7b7.vercel.app>
+- Backend health check: <https://blog-full-stack-training-api.onrender.com/api/health>
 
 ## Features
 
@@ -145,15 +148,26 @@ Administrator endpoints return HTTP `401` without a valid session.
 - Public comments and login attempts are rate-limited.
 - Production secrets must be configured in the hosting dashboards, never committed.
 
-## Future deployment
+## Production deployment
 
-The intended production layout is:
+The production layout is:
 
 - React frontend on Vercel
 - Express API on Render
 - PostgreSQL on Render in the same region as the API
 
-`frontend/vercel.json` contains a placeholder Render API URL. Replace `YOUR-API` only when local testing is complete. The backend must receive its production environment variables through Render. No deployment is required for local testing.
+Vercel builds the `frontend` directory with `npm run build` and publishes `dist`. The frontend does not need a production environment variable because `frontend/vercel.json` forwards same-origin `/api` requests to the Render API.
+
+Render creates the API and PostgreSQL database from `render.yaml`. Configure these API environment variables in Render:
+
+- `DATABASE_URL`: the Render database's internal connection string
+- `DATABASE_SSL=false`: internal Render connections do not require TLS
+- `SESSION_SECRET`: a long random secret
+- `CLIENT_URL=https://blog-full-stack-training-qw-e7b7.vercel.app`
+- `ADMIN_USERNAME`: the administrator login name
+- `ADMIN_PASSWORD`: the administrator password, at least 10 characters long
+
+The free Render database expires after 30 days, and the free web service can sleep during inactivity. The first request after sleep can therefore be slower.
 
 ## Submission archive
 
