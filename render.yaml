@@ -4,7 +4,7 @@ services:
     runtime: node
     plan: free
     region: singapore
-    buildCommand: npm ci --prefix backend && npm --prefix backend run build
+    buildCommand: npm ci --prefix backend --include=dev && npm --prefix backend run build
     startCommand: npm --prefix backend run db:schema && npm --prefix backend run db:seed && npm --prefix backend start
     healthCheckPath: /api/health
     autoDeployTrigger: commit
