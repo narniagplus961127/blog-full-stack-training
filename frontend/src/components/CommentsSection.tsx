@@ -117,13 +117,13 @@ export function CommentsSection() {
     <section className="border-t border-slate-200 bg-slate-50" id="comments">
       <div className="mx-auto grid max-w-6xl gap-12 px-5 py-20 sm:px-8 lg:grid-cols-[0.9fr_1.1fr]">
         <div>
-          <p className="eyebrow">Join the conversation</p>
+          <p className="eyebrow">Lorem ipsum</p>
           <h2 className="mt-4 font-serif text-4xl leading-tight text-slate-950">
-            What are you making space for?
+            Dolor sit amet, consectetur adipiscing?
           </h2>
           <p className="mt-5 max-w-md leading-7 text-slate-600">
-            Share a thought, a habit that helped, or a question worth carrying
-            forward.
+            Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation.
           </p>
           <div className="mt-8 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
             <CommentForm onSubmit={addComment} />
@@ -142,7 +142,7 @@ export function CommentsSection() {
           <div className="mb-6 flex items-center justify-between">
             <h2 className="flex items-center gap-3 text-xl font-bold text-slate-950">
               <MessageCircle aria-hidden="true" className="text-blue-700" />
-              Reader notes
+              Lorem notes
             </h2>
             <span className="text-sm text-slate-500">
               {comments.length} {comments.length === 1 ? 'comment' : 'comments'}

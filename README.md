@@ -1,6 +1,6 @@
-# Field Notes Blog
+# Lorem Ipsum Blog
 
-A one-page editorial blog built with React, TypeScript, Tailwind CSS, Express, and PostgreSQL. Public visitors can read the article and publish comments. An authenticated administrator can add, edit, and delete comments.
+A one-page Lorem Ipsum editorial demo built with React, TypeScript, Tailwind CSS, Express, and PostgreSQL. Public visitors can read the placeholder article and publish comments. An authenticated administrator can add, edit, and delete comments.
 
 Production deployment:
 

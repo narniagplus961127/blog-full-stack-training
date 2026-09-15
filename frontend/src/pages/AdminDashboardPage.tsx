@@ -104,13 +104,13 @@ export function AdminDashboardPage() {
               className="text-sm font-bold tracking-[0.15em] text-blue-700 uppercase"
               to="/"
             >
-              Field Notes
+              Lorem Ipsum
             </Link>
             <h1 className="mt-1 text-2xl font-bold text-slate-950">
               Comment desk
             </h1>
           </div>
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-5">
             <span className="hidden text-sm text-slate-500 sm:block">
               Signed in as {username}
             </span>
@@ -127,7 +127,7 @@ export function AdminDashboardPage() {
       </header>
 
       <main className="mx-auto max-w-6xl px-5 py-10 sm:px-8">
-        <div className="flex flex-wrap items-end justify-between gap-5">
+        <div className="flex flex-wrap items-end justify-between gap-8">
           <div>
             <p className="eyebrow">Administration</p>
             <h2 className="mt-3 font-serif text-4xl text-slate-950">
@@ -183,7 +183,7 @@ export function AdminDashboardPage() {
                   <p className="leading-7 whitespace-pre-wrap text-slate-600">
                     {comment.content}
                   </p>
-                  <div className="flex items-start gap-2">
+                  <div className="flex items-start gap-3 md:pl-3">
                     <button
                       aria-label={`Edit comment from ${comment.authorName}`}
                       className="icon-button"
