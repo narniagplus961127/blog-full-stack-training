@@ -1,7 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="32" fill="#1d4ed8" />
-  <path
-    fill="#fff"
-    d="M21 17h25v8H30v7h13v8H30v15h-9V17Z"
-  />
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Lorem Ipsum">
+  <rect width="64" height="64" rx="16" fill="#1d4ed8" />
+  <path fill="#fff" d="M16 15h8v27h15v7H16V15Z" />
+  <rect width="8" height="34" x="42" y="15" rx="2" fill="#fff" />
 </svg>
