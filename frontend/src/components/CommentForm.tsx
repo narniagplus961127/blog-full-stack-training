@@ -97,28 +97,20 @@ export function CommentForm({
           required
           value={form.content}
         />
+        <span className="block text-sm font-normal text-slate-500">
+          {form.content.length}/1,000
+        </span>
       </label>
-      <div className="flex flex-wrap items-center justify-between gap-4">
-        <p className="text-sm text-slate-500">{form.content.length}/1,000</p>
-        <div className="flex items-center gap-3">
-          {onCancel && (
-            <button
-              className="button-secondary"
-              onClick={onCancel}
-              type="button"
-            >
-              Cancel
-            </button>
-          )}
-          <button
-            className="button-primary"
-            disabled={submitting}
-            type="submit"
-          >
-            <Send aria-hidden="true" size={16} />
-            {submitting ? 'Saving…' : submitLabel}
+      <div className="flex flex-wrap items-center justify-end gap-5">
+        {onCancel && (
+          <button className="button-secondary" onClick={onCancel} type="button">
+            Cancel
           </button>
-        </div>
+        )}
+        <button className="button-primary" disabled={submitting} type="submit">
+          <Send aria-hidden="true" size={16} />
+          {submitting ? 'Saving…' : submitLabel}
+        </button>
       </div>
       {error && (
         <p

@@ -12,7 +12,7 @@ export function SiteHeader() {
           <span className="grid size-9 place-items-center rounded-full bg-blue-700 text-white">
             <Feather aria-hidden="true" size={18} />
           </span>
-          Field Notes
+          Lorem Ipsum
         </Link>
         <Link
           className="inline-flex min-h-11 items-center gap-2 rounded-full border border-slate-300 px-4 text-sm font-semibold text-slate-700 transition hover:border-slate-950 hover:text-slate-950 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-700"

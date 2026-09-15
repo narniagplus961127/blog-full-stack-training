@@ -45,7 +45,7 @@ export function AdminLoginPage() {
           <span className="grid size-11 place-items-center rounded-full bg-blue-700 text-white">
             <Feather aria-hidden="true" size={20} />
           </span>
-          <p className="eyebrow mt-8">Field Notes</p>
+          <p className="eyebrow mt-8">Lorem Ipsum</p>
           <h1 className="mt-3 font-serif text-4xl text-slate-950">
             Admin sign in
           </h1>

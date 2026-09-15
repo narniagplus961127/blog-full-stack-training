@@ -14,17 +14,19 @@ export function BlogPage() {
             <div className="mx-auto grid max-w-6xl items-center gap-12 px-5 py-20 sm:px-8 lg:grid-cols-[1.2fr_0.8fr] lg:py-28">
               <div>
                 <p className="eyebrow text-blue-300">
-                  Designing a thoughtful life
+                  Lorem ipsum dolor sit amet
                 </p>
                 <h1 className="mt-6 max-w-3xl font-serif text-5xl leading-[1.04] tracking-tight sm:text-6xl lg:text-7xl">
-                  The quiet architecture of a better morning
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit
                 </h1>
                 <p className="mt-7 max-w-2xl text-lg leading-8 text-slate-300">
-                  Good days rarely begin by accident. They are built from small,
-                  repeatable choices that make room for attention.
+                  Sed do eiusmod tempor incididunt ut labore et dolore magna
+                  aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
                 </p>
                 <div className="mt-10 flex flex-wrap items-center gap-5 text-sm text-slate-400">
-                  <span className="font-semibold text-white">By Mira Chen</span>
+                  <span className="font-semibold text-white">
+                    By Lorem Ipsum
+                  </span>
                   <span aria-hidden="true">·</span>
                   <time dateTime="2026-09-10">September 10, 2026</time>
                   <span className="inline-flex items-center gap-2">
@@ -46,16 +48,16 @@ export function BlogPage() {
           <div className="mx-auto grid max-w-6xl gap-10 px-5 py-16 sm:px-8 lg:grid-cols-[180px_minmax(0,680px)] lg:py-24">
             <aside className="hidden lg:block">
               <div className="sticky top-8 border-l-2 border-blue-700 pl-5 text-sm leading-6 text-slate-500">
-                <p className="font-bold text-slate-900">In this essay</p>
+                <p className="font-bold text-slate-900">In this lorem</p>
                 <p className="mt-2">
-                  Attention, friction, and the rituals that help a day begin
-                  gently.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor.
                 </p>
                 <a
                   className="mt-5 inline-flex items-center gap-2 font-semibold text-blue-700 hover:text-blue-900"
                   href="#comments"
                 >
-                  Reader notes
+                  Lorem notes
                   <ArrowDown aria-hidden="true" size={15} />
                 </a>
               </div>
@@ -63,59 +65,51 @@ export function BlogPage() {
 
             <div className="article-prose">
               <p className="lead">
-                The first hour of the day carries an unusual kind of leverage.
-                It does not need to be perfect, productive, or optimized. It
-                only needs to belong to you long enough to establish a
-                direction.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris.
               </p>
 
-              <h2>Begin before the noise does</h2>
+              <h2>Lorem ipsum dolor sit amet</h2>
               <p>
-                Most mornings are lost in tiny handovers. The alarm gives the
-                day to the phone. The phone gives it to messages, headlines, and
-                other people’s priorities. By the time we stand up, our
-                attention has already scattered into a dozen rooms.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
               </p>
               <p>
-                A calmer beginning is less about discipline than sequence. Put
-                one deliberate action before the automatic ones: open a window,
-                drink water, stretch, or write three unedited lines. The action
-                matters less than the message it sends—you get to arrive before
-                the world makes its requests.
+                Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                cupidatat non proident, sunt in culpa qui officia deserunt
+                mollit anim id est laborum.
               </p>
 
               <blockquote>
-                “A ritual is simply a decision you no longer have to negotiate
-                with yourself.”
+                “Lorem ipsum dolor sit amet, consectetur adipiscing elit.”
               </blockquote>
 
-              <h2>Design for the person you are at 7 a.m.</h2>
+              <h2>Consectetur adipiscing elit</h2>
               <p>
-                Evening ambition often creates complicated plans that morning
-                energy cannot support. Reduce the number of decisions instead.
-                Place the book on the chair. Fill the kettle. Leave a blank page
-                beside a pen. Make the helpful action visible and the
-                distracting action slightly inconvenient.
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+                quae ab illo inventore veritatis et quasi architecto beatae.
               </p>
               <p>
-                This is not a grand reinvention. It is environmental kindness. A
-                thoughtful room can carry part of the intention when motivation
-                is still waking up.
+                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
+                aut fugit, sed quia consequuntur magni dolores eos qui ratione
+                voluptatem sequi nesciunt.
               </p>
 
-              <h2>Leave some space unclaimed</h2>
+              <h2>Ut enim ad minima veniam</h2>
               <p>
-                A useful morning routine should create capacity, not become
-                another scorecard. Ten quiet minutes can be enough. The aim is
-                not to win the morning; it is to notice your own mind before
-                spending it.
+                Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+                consectetur, adipisci velit, sed quia non numquam eius modi
+                tempora incidunt ut labore et dolore magnam aliquam quaerat.
               </p>
               <p>
-                Start smaller than feels impressive. Repeat what feels
-                restorative. Let the ritual change with the season. What remains
-                is the simple architecture: less friction around what matters,
-                more distance from what does not, and a little room for the day
-                to become itself.
+                Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+                esse quam nihil molestiae consequatur, vel illum qui dolorem eum
+                fugiat quo voluptas nulla pariatur.
               </p>
             </div>
           </div>
@@ -124,7 +118,7 @@ export function BlogPage() {
         <CommentsSection />
       </main>
       <footer className="border-t border-slate-200 bg-white px-5 py-8 text-center text-sm text-slate-500">
-        Field Notes · Stories for a more considered everyday
+        Lorem Ipsum · Dolor sit amet, consectetur adipiscing elit
       </footer>
     </div>
   );
